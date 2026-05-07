@@ -11,20 +11,21 @@ API: Axios + TMDb API
 Styling: CSS3 (Flexbox & Grid)
 
 📂 Cấu trúc thư mục
-Movie
-├── README.md
+Movie/
+├── public/
+│   ├── favicon.svg
+│   └── icons.svg
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── App.jsx
+│   └── main.jsx
+├── .gitignore
 ├── eslint.config.js
 ├── index.html
 ├── package-lock.json
 ├── package.json
-├── public
-│   ├── favicon.svg
-│   └── icons.svg
-├── src
-│   ├── App.jsx
-│   ├── assets
-│   ├── components
-│   ├── main.jsx
-│   ├── pages
-│   └── services
+├── README.md
 └── vite.config.js

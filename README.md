@@ -9,4 +9,3 @@ Routing: React Router Dom
 API: Axios + TMDb API
 
 Styling: CSS3 (Flexbox & Grid)
->>>>>>> f8f349555e05e5d0f77d7ef8d4336ceaf79f3301

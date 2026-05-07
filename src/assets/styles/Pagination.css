@@ -1,0 +1,32 @@
+.pagination {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.pagination button,
+.pagination .page-number {
+    background-color: #141414;
+    border: 1px solid;
+    color: white;
+    min-height: 32px;
+    min-width: 32px;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+.pagination .page-number.active {
+    pointer-events: none;
+    background-color: var(--red);
+    border-color: var(--red);
+}
+.pagination .page-number:hover,
+.pagination button:hover {
+    color: var(--red-hover);
+}
+.pagination button[disabled]{
+    pointer-events: none;
+    color: gray;
+}

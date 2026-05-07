@@ -11,21 +11,31 @@ API: Axios + TMDb API
 Styling: CSS3 (Flexbox & Grid)
 
 📂 Cấu trúc thư mục
-Movie/
-├── public/
-│   ├── favicon.svg
-│   └── icons.svg
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── services/
-│   ├── App.jsx
-│   └── main.jsx
-├── .gitignore
-├── eslint.config.js
-├── index.html
-├── package-lock.json
-├── package.json
-├── README.md
-└── vite.config.js
+src/
+ ┣ assets/
+ ┃ ┗ styles/
+ ┃ ┃ ┣ Common.css
+ ┃ ┃ ┣ Footer.css
+ ┃ ┃ ┣ GenresPage.css
+ ┃ ┃ ┣ Header.css
+ ┃ ┃ ┣ Login.css
+ ┃ ┃ ┣ MovieDetail.css
+ ┃ ┃ ┣ Pagination.css
+ ┃ ┃ ┗ TrendingPage.css
+ ┣ components/
+ ┃ ┣ Footer.jsx
+ ┃ ┣ Header.jsx
+ ┃ ┣ MovieCard.jsx
+ ┃ ┣ Pagination.jsx
+ ┃ ┗ MovieLoading.jsx
+ ┣ pages/
+ ┃ ┣ Home.jsx
+ ┃ ┣ Login.jsx
+ ┃ ┣ GenresPage.jsx
+ ┃ ┣ SearchPage.jsx
+ ┃ ┣ TrendingPage.jsx
+ ┃ ┗ MovieDetail.jsx
+ ┣ services/
+ ┃ ┗ movieService.js
+ ┣ App.jsx
+ ┗ main.jsx

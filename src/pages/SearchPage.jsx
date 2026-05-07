@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { movieService } from '../services/movieServices';
-import '../assets/styles/Movie.css';
+import '../assets/styles/TrendingPage.css';
 import MovieCard from '../components/MovieCard';
 import Pagination from '../components/Pagination';
 import MovieLoading from '../components/MovieLoading';

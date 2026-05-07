@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { movieService } from '../services/movieServices';
-import '../assets/styles/Movie.css';
+import '../assets/styles/TrendingPage.css';
 import MovieCard from '../components/MovieCard';
 import MovieLoading from '../components/MovieLoading';
 import GenresPage from "./GenresPage";
